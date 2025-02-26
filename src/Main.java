@@ -35,7 +35,7 @@ public class Main {
 
         }
         catch(IOException e){
-            System.out.println("Erro: "+path+" "+e.getMessage());
+            System.out.println("Erro: "+e.getMessage());
         }
         sc.close();
     }
